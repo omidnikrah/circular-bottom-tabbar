@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { createAppContainer, createBottomTabNavigator, createStackNavigator } from 'react-navigation';
+import { createAppContainer, createBottomTabNavigator } from 'react-navigation';
 import { fadeIn } from 'react-navigation-transitions';
 import Icon from '../components/Icon';
 import TabBarNavigator from '../components/TabBarNavigator';

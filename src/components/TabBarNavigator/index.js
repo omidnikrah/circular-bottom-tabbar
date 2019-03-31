@@ -47,10 +47,12 @@ class TabBarNavigator extends React.Component {
 		this.CircleInner = posed.View({
 			passive: {
 				backgroundColor: [
+					'x',
 					{
 						inputRange: routes.map((route, index) => index * tabWidth),
 						outputRange: tabColors
-					}
+					},
+					true
 				]
 			}
 		});
