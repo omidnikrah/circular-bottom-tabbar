@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#bbbbbb',
+		backgroundColor: '#FFC55C',
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 });
 
 const Search = () => (
-	<View style={[ styles.container, { backgroundColor: '#faa100' } ]}>
+	<View style={styles.container}>
 		<Text style={styles.text}>Search Screen</Text>
 	</View>
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
-import { createAppContainer, createBottomTabNavigator } from 'react-navigation';
+import { createAppContainer, createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 import { fadeIn } from 'react-navigation-transitions';
 import Icon from '../components/Icon';
 import TabBarNavigator from '../components/TabBarNavigator';
@@ -38,11 +38,11 @@ const TabNavigator = createBottomTabNavigator(
 	},
 	{
 		tabBarComponent: (props) => (
-			<TabBarNavigator tabColors={[ '#339af9', '#faa100', '#f96038', '#30b1dc' ]} {...props} />
+			<TabBarNavigator tabColors={[ '#6AB8FF', '#FFC55C', '#FA8060', '#4FC5ED' ]} {...props} />
 		),
 		tabBarOptions: {
 			activeTintColor: '#fff',
-			inactiveTintColor: '#999'
+			inactiveTintColor: '#bfbfbf'
 		}
 	}
 );

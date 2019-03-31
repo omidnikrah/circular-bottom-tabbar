@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#bbbbbb',
+		backgroundColor: '#FA8060',
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 });
 
 const Reviews = () => (
-	<View style={[ styles.container, { backgroundColor: '#f96038' } ]}>
+	<View style={styles.container}>
 		<Text style={styles.text}>Reviews Screen</Text>
 	</View>
 );

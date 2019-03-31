@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#bbbbbb',
+		backgroundColor: '#6AB8FF',
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
 });
 
 const Home = () => (
-	<View style={[ styles.container, { backgroundColor: '#339af9' } ]}>
+	<View style={styles.container}>
 		<Text style={styles.text}>Home Screen</Text>
 	</View>
 );
