@@ -28,7 +28,7 @@ class TabBarNavigator extends React.Component {
 		super(props);
 		const { navigation: { state: { routes } }, tabColors } = props;
 		const tabWidth = windowWidth / routes.length;
-
+		console.log(routes);
 		const poses = routes.reduce((poses, pose, index) => {
 			return { ...poses, [`route-${index}`]: { x: tabWidth * index } };
 		}, {});
